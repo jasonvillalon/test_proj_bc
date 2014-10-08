@@ -1,0 +1,8 @@
+ApplicationModules.push (angular) ->
+	angular.module("designer").controller "TestController", ["$scope",
+		($scope) ->
+			# Test controller logic
+			# ...
+            $scope.update (haha) ->
+                alert haha
+	]

@@ -1,0 +1,9 @@
+ApplicationModules.push (angular) ->
+	angular.module("designer").config ["$stateProvider",
+		($stateProvider) ->
+			# Designer state routing
+			$stateProvider.
+			state "test", 
+				url: "/test",
+				templateUrl: "<%= asset_path('modules/designer/views/test.client.view.html') %>"
+	]

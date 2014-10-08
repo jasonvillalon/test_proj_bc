@@ -36,7 +36,8 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 # twitter bootstrap
-gem 'bootstrap-sass'
+gem 'bootstrap-material-design'
+gem 'bootstrap-sass', '~> 3.2.0'
 # auto prefixer
 gem 'autoprefixer-rails'
 # bower dependencies manager for rails

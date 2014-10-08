@@ -1,0 +1,86 @@
+ApplicationModules.push (angular) ->
+	angular.module("core").directive "stateChange", [
+		() ->
+				restrict: "A"
+				compile: (scope, element, attrs) ->
+                    post: (scope, iElement, iAttrs, controller) ->
+                        if typeof window.ripples is "object"
+                            window.ripples.init ".btn:not(.btn-link), .navbar a:not(.withoutripple), .nav-tabs a:not(.withoutripple), .withripple"
+
+                        initInputs = () ->
+                            # Add fake-checkbox to material checkboxes
+                            window.$ ".checkbox > label > input"
+                                .not ".bs-material"
+                                .addClass "bs-material"
+                                .after "<span class=check></span>"
+
+                            # Add fake-radio to material radios
+                            window.$ ".radio > label > input"
+                                .not ".bs-material"
+                                .addClass "bs-material"
+                                .after "<span class=circle></span><span class=check></span>"
+
+                            console.log window.$("input.form-control, textarea.form-control, select.form-control").not ".bs-material"
+                            # Add elements for material inputs
+                            window.$ "input.form-control, textarea.form-control, select.form-control"
+                                .not ".bs-material"
+                                .each () ->
+#                                    alert 'asd'
+                                    if window.$(this) .is ".bs-material"
+                                        return
+                                    window.$(this)
+                                        .wrap "<div class=form-control-wrapper></div>"
+                                    window.$(this)
+                                        .after "<span class=material-input></span>"
+                                    if window.$(this) .hasClass "floating-label"
+                                        placeholder = window.$(this) .attr "placeholder"
+                                        window.$(this) .attr "placeholder", null
+                                            .removeClass("floating-label");
+                                        window.$(this)
+                                            .after "<div class=floating-label>" + placeholder + "</div>"
+                                    if window.$(this) .is ":empty" || window.$(this) .val is null || window.$(this) .val is "undefined" || window.$(this) .val is ""
+                                        window.$(this) .addClass "empty"
+
+                                    if  window.$(this) .parent() .next() .is "[type=file]"
+                                        window.$(this) .parent() .addClass() "fileinput"
+                                        $input = window.$(this) .parent() .next() .detach
+                                        window.$(this) .after $input
+
+                        initInputs();
+
+                        # Support for "arrive.js" to dynamically detect creation of elements
+                        # include it before this script to take advantage of this feature
+                        # https://github.com/uzairfarooq/arrive/
+                        if document.arrive
+                            document.arrive "input, textarea, select", () ->
+                                initInputs();
+
+                        window.$(document).on "change", ".checkbox input", () ->
+                            window.$(this) .blur
+
+                        window.$(document).on "keyup change", ".form-control", () ->
+                            self = window.$(this)
+                            setTimeout () ->
+                                if self.val is ""
+                                    self.addClass "empty"
+                                else
+                                    self.removeClass "empty"
+                            , 1
+
+                        window.$ document
+                            .on "focus", ".form-control-wrapper.fileinput", () ->
+                                window.$(this) .find "input" .addClass "focus"
+                            .on "blur", ".form-control-wrapper.fileinput", () ->
+                                window.$(this) .find "input" .removeClass "focus"
+                            .on "change", ".form-control-wrapper.fileinput [type=file]", () ->
+                                value = ""
+                                window.$.each window.$(this) [0].files, (i, file) ->
+                                    console.log file
+                                    value += file.name + ", "
+                                    value = value.substring(0, value.length - 2);
+                                    if value
+                                        window.$(this) .prev .removeClass "empty"
+                                    else
+                                        window.$(this) .prev .addClass "empty"
+                                    window.$(this) .prev .val value
+	]

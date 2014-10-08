@@ -18,7 +18,7 @@ paths:
   # require lodash
   'lodash': 'lodash/dist/lodash'
   # require bootstrap.js to make bootstrap components work
-  'bootstrap': 'bootstrap-sprockets'
+  'bootstrap-material-design': 'bootstrap-material-design/material'
   # jasmine boostrap
   'jasmine': 'jasmine'
   'jasmine-html': 'jasmine-html'
@@ -38,7 +38,7 @@ shim:
   'angular-ui-router': ['angular']
   'bindonce': ['angular']
   'ui-bootstrap-tpls': ['angular']
-  'bootstrap': ['jquery']
+  'bootstrap-material-design': ['jquery']
   'jasmine':
     exports: 'window.jasmineRequire'
   'jasmine-html':

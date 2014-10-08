@@ -8,7 +8,7 @@ require [
   "bindonce"
   "ui-bootstrap-tpls"
   "lodash"
-  "bootstrap"
+  "bootstrap-material-design"
 ], (angular) ->
   "use strict"
 

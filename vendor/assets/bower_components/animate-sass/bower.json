@@ -6,13 +6,14 @@
     "Tom Gillard <tomgillar@gmail.com>"
   ],
   "description": "A Sass library of Dan Eden's Animate.css",
-  "main": "animate.scss",
+  "main": "_animate.scss",
   "keywords": [
     "animate-sass",
     "animate.css",
     "sass",
     "css",
-    "css3-animations"
+    "css3-animations",
+    "bootstrap-material-design"
   ],
   "license": "MIT",
   "ignore": [

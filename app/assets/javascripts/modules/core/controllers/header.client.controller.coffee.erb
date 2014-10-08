@@ -1,0 +1,15 @@
+ApplicationModules.push (angular) ->
+	angular.module("core").controller "HeaderController", [
+        "$scope"
+        "$rootScope"
+		($scope, $rootScope) ->
+			$scope.menus = [
+                "name" : "Home"
+                "url": "/"
+            ,
+                "name": "Card Designer"
+                "url": "/designer/test"
+            ]
+
+
+	]
