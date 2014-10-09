@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3692e68-f0e6-4233-8b8c-854e3e2e1288" name="Default" comment="">
-      <change type="DELETED" beforePath="T:\html\businesscard7\app\assets\javascripts\modules\core\directives\state-change.client.directive.coffee.erb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/.keep" afterPath="$PROJECT_DIR$/app/assets/images/.keep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/.keep" afterPath="$PROJECT_DIR$/app/mailers/.keep" />
@@ -232,6 +231,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/index.html" afterPath="$PROJECT_DIR$/app/views/application/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/index.html" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/init-material.client.directive.coffee.erb" afterPath="$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/init-material.client.directive.coffee.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/javascripts/support/jasmine.yml" afterPath="$PROJECT_DIR$/spec/javascripts/support/jasmine.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/js/vendor/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/js/vendor/jquery-1.9.1.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/karma.conf.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/karma.conf.js" />
@@ -336,10 +336,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.client.view.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test.client.view.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/designer/views/test.client.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35311574" vertical-offset="0" max-vertical-offset="1717">
+            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1717">
               <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
               <folding />
             </state>
@@ -401,11 +401,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init-material.client.directive.coffee.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="init-material.client.directive.coffee.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/init-material.client.directive.coffee.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7349398" vertical-offset="1199" max-vertical-offset="1547">
-              <caret line="79" column="51" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.3323442" vertical-offset="262" max-vertical-offset="1496">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -460,9 +460,9 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/state-change.client.directive.coffee.erb" />
         <option value="$PROJECT_DIR$/app/views/application/index.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/modules/core/views/home.client.view.html" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/init-material.client.directive.coffee.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/modules/users/views/login.client.view.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/modules/designer/views/test.client.view.html" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/init-material.client.directive.coffee.erb" />
       </list>
     </option>
   </component>
@@ -1888,14 +1888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/init-material.client.directive.coffee.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7349398" vertical-offset="1199" max-vertical-offset="1547">
-          <caret line="79" column="51" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/users/users.client.module.coffee.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
@@ -1914,8 +1906,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/designer/views/test.client.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35311574" vertical-offset="0" max-vertical-offset="1717">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1717">
           <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/init-material.client.directive.coffee.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323442" vertical-offset="262" max-vertical-offset="1496">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -20,14 +20,12 @@ ApplicationModules.push (angular) ->
                                 .addClass "bs-material"
                                 .after "<span class=circle></span><span class=check></span>"
 
-                            console.log window.$(iElement).find("input.form-control, textarea.form-control, select.form-control").not ".bs-material"
                             # Add elements for material inputs
                             window.$(iElement).find "input.form-control, textarea.form-control, select.form-control"
                                 .not ".bs-material"
                                 .each () ->
                                     if window.$(this) .is ".bs-material"
                                         return
-                                    alert 'asd'
                                     window.$(this)
                                         .wrap "<div class=form-control-wrapper></div>"
                                     window.$(this)
@@ -75,7 +73,6 @@ ApplicationModules.push (angular) ->
                             .on "change", ".form-control-wrapper.fileinput [type=file]", () ->
                                 value = ""
                                 window.$.each window.$(this) [0].files, (i, file) ->
-                                    console.log file
                                     value += file.name + ", "
                                     value = value.substring(0, value.length - 2);
                                     if value
