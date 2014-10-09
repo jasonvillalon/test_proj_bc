@@ -19,6 +19,7 @@ paths:
   'lodash': 'lodash/dist/lodash'
   # require bootstrap.js to make bootstrap components work
   'bootstrap-material-design': 'bootstrap-material-design/material'
+  'ripples': 'bootstrap-material-design/ripples'
   # jasmine boostrap
   'jasmine': 'jasmine'
   'jasmine-html': 'jasmine-html'

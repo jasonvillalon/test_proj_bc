@@ -9,6 +9,7 @@ require [
   "ui-bootstrap-tpls"
   "lodash"
   "bootstrap-material-design"
+  "ripples"
 ], (angular) ->
   "use strict"
 

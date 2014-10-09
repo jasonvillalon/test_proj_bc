@@ -5,7 +5,7 @@ ApplicationModules.push (angular) ->
 				compile: (scope, element, attrs) ->
                     post: (scope, iElement, iAttrs, controller) ->
                         if typeof window.ripples is "object"
-                            window.ripples.init .find(".btn:not(.btn-link), .navbar a:not(.withoutripple), .nav-tabs a:not(.withoutripple), .withripple")
+                            window.ripples.init window.$(iElement).find(".btn:not(.btn-link), .navbar a:not(.withoutripple), .nav-tabs a:not(.withoutripple), .withripple")
 
                         initInputs = () ->
                             # Add fake-checkbox to material checkboxes
