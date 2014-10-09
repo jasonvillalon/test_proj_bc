@@ -26,6 +26,8 @@ paths:
   'jasmine-specs': 'jasmine-specs'
   'json2': 'json2'
   'boot': 'boot'
+  'sidebar-js': 'bootstrap-sidebar/dist/js/sidebar'
+  'sidebar-css': 'bootstrap-sidebar/dist/css/sidebar'
 shim:
   'jquery_ujs': ['jquery']
   'angular':

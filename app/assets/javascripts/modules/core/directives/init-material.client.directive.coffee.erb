@@ -5,7 +5,7 @@ ApplicationModules.push (angular) ->
 				compile: (scope, element, attrs) ->
                     post: (scope, iElement, iAttrs, controller) ->
                         if typeof window.ripples is "object"
-                            window.ripples.init window.$(iElement).find(".btn:not(.btn-link), .navbar a:not(.withoutripple), .nav-tabs a:not(.withoutripple), .withripple")
+                            window.ripples.init ".btn:not(.btn-link), .navbar a:not(.withoutripple), .nav-tabs a:not(.withoutripple), .withripple"
 
                         initInputs = () ->
                             # Add fake-checkbox to material checkboxes
@@ -40,7 +40,7 @@ ApplicationModules.push (angular) ->
                                         window.$(this) .addClass "empty"
 
                                     if  window.$(this) .parent() .next() .is "[type=file]"
-                                        window.$(this) .parent() .addClass() "fileinput"
+                                        window.$(this) .parent() .addClass "fileinput"
                                         $input = window.$(this) .parent() .next() .detach
                                         window.$(this) .after $input
 

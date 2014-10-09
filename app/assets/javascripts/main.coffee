@@ -10,6 +10,7 @@ require [
   "lodash"
   "bootstrap-material-design"
   "ripples"
+  "bootstrap-sidebar"
 ], (angular) ->
   "use strict"
 
