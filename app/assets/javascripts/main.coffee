@@ -2,6 +2,7 @@ require [
   "angular"
   "jquery"
   "jquery_ujs"
+  "bootstrap-sidebar"
   "restangular"
   "angular-animate"
   "angular-ui-router"
@@ -10,7 +11,6 @@ require [
   "lodash"
   "bootstrap-material-design"
   "ripples"
-  "bootstrap-sidebar"
 ], (angular) ->
   "use strict"
 
