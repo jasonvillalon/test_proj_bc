@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3692e68-f0e6-4233-8b8c-854e3e2e1288" name="Default" comment="">
+      <change type="DELETED" beforePath="T:\html\businesscard7\app\assets\javascripts\modules\core\directives\state-change.client.directive.coffee.erb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/.keep" afterPath="$PROJECT_DIR$/app/assets/images/.keep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/.keep" afterPath="$PROJECT_DIR$/app/mailers/.keep" />
@@ -18,26 +19,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/.keep" afterPath="$PROJECT_DIR$/test/models/.keep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/.keep" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/.keep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/.keep" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-bindonce/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-bindonce/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/CONTRIBUTE.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/CONTRIBUTE.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/FontAwesome-59de7ce694a23e47e477f119f9e9ec3c.otf" afterPath="$PROJECT_DIR$/public/assets/FontAwesome-59de7ce694a23e47e477f119f9e9ec3c.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/LICENSE" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/LICENSE" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Material-Design-984bb4772213fe9db4750a88c8194545.ttf" afterPath="$PROJECT_DIR$/public/assets/Material-Design-984bb4772213fe9db4750a88c8194545.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Material-Design-d5217fbccea2f75f1995276b8962c8fe.woff" afterPath="$PROJECT_DIR$/public/assets/Material-Design-d5217fbccea2f75f1995276b8962c8fe.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Material-Design-e40e87afd00acf5a27f4049b77210982.eot" afterPath="$PROJECT_DIR$/public/assets/Material-Design-e40e87afd00acf5a27f4049b77210982.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-animate/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-animate/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-bindonce/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-bindonce/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-mocks/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-mocks/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-animate/angular-animate.min.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular/angular.min.js.gzip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular/angular.min.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-40dda4f995a0038be79ec854d089b001.css.gz" afterPath="$PROJECT_DIR$/public/assets/application-40dda4f995a0038be79ec854d089b001.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-863cc94d5940dac9d79d0c1ef2dc6aea.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-863cc94d5940dac9d79d0c1ef2dc6aea.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-cafc982021f257b28487ab883a8621cd.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-cafc982021f257b28487ab883a8621cd.js.gz" />
@@ -46,7 +32,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-813d7316cb873051a3bfc61835de27e8.ttf" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-813d7316cb873051a3bfc61835de27e8.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-b83782d932b98da1712aaebe1028fa9d.woff" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-b83782d932b98da1712aaebe1028fa9d.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-f50766d82bb3e22f34fb7aebfd82ef3c.eot" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont-f50766d82bb3e22f34fb7aebfd82ef3c.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/license.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/license.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/modernizr-fc98437d1c80487e7672840fbcf1d0e6.js.gz" afterPath="$PROJECT_DIR$/public/assets/modernizr-fc98437d1c80487e7672840fbcf1d0e6.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/require-21be67676bcf2b75c547dd382d849e26.js.gz" afterPath="$PROJECT_DIR$/public/assets/require-21be67676bcf2b75c547dd382d849e26.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/dist/restangular.zip" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/dist/restangular.zip" />
@@ -72,15 +57,28 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/422.html" afterPath="$PROJECT_DIR$/public/422.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/500.html" afterPath="$PROJECT_DIR$/public/500.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bowerfile" afterPath="$PROJECT_DIR$/Bowerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-bindonce/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-bindonce/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/CONTRIBUTE.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/CONTRIBUTE.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/Gruntfile.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guardfile" afterPath="$PROJECT_DIR$/Guardfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/LICENSE-e507eaa0c6af2ab04974a6051f908cb4.txt" afterPath="$PROJECT_DIR$/public/assets/LICENSE-e507eaa0c6af2ab04974a6051f908cb4.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/lodash/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/lodash/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/LICENSE" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/LICENSE" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/Material-Design-80283a82d8c59f46c756d17986ab825c.svg" afterPath="$PROJECT_DIR$/public/assets/Material-Design-80283a82d8c59f46c756d17986ab825c.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-animate/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-animate/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-bindonce/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-bindonce/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-mocks/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-mocks/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/animate-sass/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/animate-sass/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/README.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/animate-sass/_animate.scss" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/animate-sass/_animate.scss" />
@@ -159,12 +157,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/modules/core/views/about.client.view-ca2abadb52d8082fddff5bac22a2c638.html" afterPath="$PROJECT_DIR$/public/assets/modules/core/views/about.client.view-ca2abadb52d8082fddff5bac22a2c638.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/modules/core/views/about.client.view.html" afterPath="$PROJECT_DIR$/app/assets/javascripts/modules/core/views/about.client.view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-animate/angular-animate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-animate/angular-animate.min.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-animate/angular-animate.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular/angular-csp.css" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular/angular-csp.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-mocks/angular-mocks.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-mocks/angular-mocks.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/release/angular-ui-router.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/release/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/release/angular-ui-router.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular/angular.min.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular/angular.min.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular/angular.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/angular_template_assets.rb" afterPath="$PROJECT_DIR$/config/initializers/angular_template_assets.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/javascripts/helpers/angular_template_helper.coffee.erb" afterPath="$PROJECT_DIR$/spec/javascripts/helpers/angular_template_helper.coffee.erb" />
@@ -236,6 +236,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/js/vendor/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/Buttons/js/vendor/jquery-1.9.1.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/karma.conf.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/karma.conf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/karma.underscore.conf.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/karma.underscore.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/license.md" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/restangular/license.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/lodash/dist/lodash.compat.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/lodash/dist/lodash.compat.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/lodash/dist/lodash.compat.min.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/lodash/dist/lodash.compat.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/lodash/dist/lodash.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/lodash/dist/lodash.js" />
@@ -279,7 +280,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/session_store.rb" afterPath="$PROJECT_DIR$/config/initializers/session_store.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jasmine_rails/spec_helper.rb" afterPath="$PROJECT_DIR$/lib/jasmine_rails/spec_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/jasmine_rails/spec_runner.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/jasmine_rails/spec_runner.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/state-change.client.directive.coffee.erb" afterPath="$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/state-change.client.directive.coffee.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/src/state.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/src/state.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/src/stateDirectives.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/src/stateDirectives.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/src/stateFilters.js" afterPath="$PROJECT_DIR$/vendor/assets/bower_components/angular-ui-router/src/stateFilters.js" />
@@ -326,21 +326,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <file leaf-file-name="header.client.controller.coffee.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/controllers/header.client.controller.coffee.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="442">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.coffee">
+      <file leaf-file-name="test.client.view.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/designer/views/test.client.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="944" max-vertical-offset="1343">
-              <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.35311574" vertical-offset="0" max-vertical-offset="1717">
+              <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -349,18 +349,18 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/application/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="629">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="629">
+              <caret line="0" column="72" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.client.controller.coffee.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/controllers/header.client.controller.coffee.erb">
+      <file leaf-file-name="login.client.view.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/users/views/login.client.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72922254" vertical-offset="0" max-vertical-offset="442">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1071">
+              <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -371,61 +371,61 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.client.view.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/views/about.client.view.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.client.routes.coffee.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/config/core.client.routes.coffee.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="272">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="state-change.client.directive.coffee.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/state-change.client.directive.coffee.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3846154" vertical-offset="933" max-vertical-offset="1547">
-              <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="designer.client.routes.coffee.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/designer/config/designer.client.routes.coffee.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="238">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding>
-                <marker date="1412764102614" expanded="true" signature="38:283" placeholder="..." />
-                <marker date="1412764102614" expanded="true" signature="72:283" placeholder="[...]" />
-                <marker date="1412764102614" expanded="true" signature="144:280" placeholder="..." />
-                <marker date="1412764102614" expanded="true" signature="182:280" placeholder="url: &quot;/test&quot;..." />
+                <marker date="1412759221815" expanded="true" signature="41:298" placeholder="..." />
+                <marker date="1412759221815" expanded="true" signature="72:298" placeholder="[...]" />
+                <marker date="1412759221815" expanded="true" signature="119:292" placeholder="..." />
+                <marker date="1412759221815" expanded="true" signature="178:292" placeholder="url: &quot;/user/login&quot;..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.client.view.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/users/views/login.client.view.html">
+      <file leaf-file-name="users.client.controller.coffee.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/users/controllers/users.client.controller.coffee.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="34" max-vertical-offset="1071">
-              <caret line="3" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="6" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="340">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.client.controller.coffee.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/designer/controllers/test.client.controller.coffee.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init-material.client.directive.coffee.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/init-material.client.directive.coffee.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7349398" vertical-offset="1199" max-vertical-offset="1547">
+              <caret line="79" column="51" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.client.module.coffee.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/users/users.client.module.coffee.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.client.view.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/views/home.client.view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="578">
+              <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -444,7 +444,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/modules/designer/controllers/test.client.controller.coffee.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/modules/designer/designer.client.module.coffee.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/modules/core/config/core.client.routes.coffee.erb" />
@@ -454,13 +453,16 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/modules/core/views/home.client.view.html" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/modules/users/views/login.client.view.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/main.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/state-change.client.directive.coffee.erb" />
-        <option value="$PROJECT_DIR$/app/views/application/index.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/modules/core/views/about.client.view.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/modules/core/controllers/header.client.controller.coffee.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/modules/designer/controllers/test.client.controller.coffee.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/state-change.client.directive.coffee.erb" />
+        <option value="$PROJECT_DIR$/app/views/application/index.html" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/modules/core/views/home.client.view.html" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/init-material.client.directive.coffee.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/modules/users/views/login.client.view.html" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/modules/designer/views/test.client.view.html" />
       </list>
     </option>
   </component>
@@ -938,6 +940,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="businesscard7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="businesscard7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -969,6 +1005,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="designer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="businesscard7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="businesscard7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="businesscard7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="businesscard7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1199,6 +1303,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyModuleStructureConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: businesscard7">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -1392,6 +1500,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b3692e68-f0e6-4233-8b8c-854e3e2e1288" name="Default" comment="" />
@@ -1514,20 +1625,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/designer/controllers/test.client.controller.coffee.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/users/users.client.module.coffee.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1679,22 +1776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/views/home.client.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="578">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/users/views/login.client.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="34" max-vertical-offset="1071">
-          <caret line="3" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
@@ -1719,27 +1800,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/state-change.client.directive.coffee.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3846154" vertical-offset="933" max-vertical-offset="1547">
-          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/application/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="629">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/config/core.client.routes.coffee.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="272">
           <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
+          <folding>
+            <marker date="1412782685477" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412782685477" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1412782685477" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412782685477" expanded="true" signature="-1:-1" placeholder="url: &quot;/&quot;..." />
+            <marker date="1412782685477" expanded="true" signature="-1:-1" placeholder="url: &quot;/about&quot;..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1748,10 +1819,10 @@
         <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="238">
           <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding>
-            <marker date="1412764102614" expanded="true" signature="38:283" placeholder="..." />
-            <marker date="1412764102614" expanded="true" signature="72:283" placeholder="[...]" />
-            <marker date="1412764102614" expanded="true" signature="144:280" placeholder="..." />
-            <marker date="1412764102614" expanded="true" signature="182:280" placeholder="url: &quot;/test&quot;..." />
+            <marker date="1412764102614" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412764102614" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1412764102614" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412764102614" expanded="true" signature="-1:-1" placeholder="url: &quot;/test&quot;..." />
           </folding>
         </state>
       </provider>
@@ -1764,18 +1835,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/controllers/header.client.controller.coffee.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="442">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/users/config/users.client.routes.coffee.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1412759221815" expanded="true" signature="41:298" placeholder="..." />
+            <marker date="1412759221815" expanded="true" signature="72:298" placeholder="[...]" />
+            <marker date="1412759221815" expanded="true" signature="119:292" placeholder="..." />
+            <marker date="1412759221815" expanded="true" signature="178:292" placeholder="url: &quot;/user/login&quot;..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/users/controllers/users.client.controller.coffee.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="376">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/controllers/header.client.controller.coffee.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/designer/controllers/test.client.controller.coffee.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72922254" vertical-offset="0" max-vertical-offset="442">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="0" column="72" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/views/home.client.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/core/directives/init-material.client.directive.coffee.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7349398" vertical-offset="1199" max-vertical-offset="1547">
+          <caret line="79" column="51" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/users/users.client.module.coffee.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/users/views/login.client.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modules/designer/views/test.client.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35311574" vertical-offset="0" max-vertical-offset="1717">
+          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
           <folding />
         </state>
       </provider>

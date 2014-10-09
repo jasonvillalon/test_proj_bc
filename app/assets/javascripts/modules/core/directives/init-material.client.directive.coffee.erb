@@ -1,33 +1,33 @@
 ApplicationModules.push (angular) ->
-	angular.module("core").directive "stateChange", [
+	angular.module("core").directive "initMaterial", [
 		() ->
 				restrict: "A"
 				compile: (scope, element, attrs) ->
                     post: (scope, iElement, iAttrs, controller) ->
                         if typeof window.ripples is "object"
-                            window.ripples.init ".btn:not(.btn-link), .navbar a:not(.withoutripple), .nav-tabs a:not(.withoutripple), .withripple"
+                            window.ripples.init .find(".btn:not(.btn-link), .navbar a:not(.withoutripple), .nav-tabs a:not(.withoutripple), .withripple")
 
                         initInputs = () ->
                             # Add fake-checkbox to material checkboxes
-                            window.$ ".checkbox > label > input"
+                            window.$(iElement).find ".checkbox > label > input"
                                 .not ".bs-material"
                                 .addClass "bs-material"
                                 .after "<span class=check></span>"
 
                             # Add fake-radio to material radios
-                            window.$ ".radio > label > input"
+                            window.$(iElement).find ".radio > label > input"
                                 .not ".bs-material"
                                 .addClass "bs-material"
                                 .after "<span class=circle></span><span class=check></span>"
 
-                            console.log window.$("input.form-control, textarea.form-control, select.form-control").not ".bs-material"
+                            console.log window.$(iElement).find("input.form-control, textarea.form-control, select.form-control").not ".bs-material"
                             # Add elements for material inputs
-                            window.$ "input.form-control, textarea.form-control, select.form-control"
+                            window.$(iElement).find "input.form-control, textarea.form-control, select.form-control"
                                 .not ".bs-material"
                                 .each () ->
-#                                    alert 'asd'
                                     if window.$(this) .is ".bs-material"
                                         return
+                                    alert 'asd'
                                     window.$(this)
                                         .wrap "<div class=form-control-wrapper></div>"
                                     window.$(this)
@@ -55,10 +55,10 @@ ApplicationModules.push (angular) ->
                             document.arrive "input, textarea, select", () ->
                                 initInputs();
 
-                        window.$(document).on "change", ".checkbox input", () ->
+                        window.$(iElement).on "change", ".checkbox input", () ->
                             window.$(this) .blur
 
-                        window.$(document).on "keyup change", ".form-control", () ->
+                        window.$(iElement).on "keyup change", ".form-control", () ->
                             self = window.$(this)
                             setTimeout () ->
                                 if self.val is ""
@@ -67,7 +67,7 @@ ApplicationModules.push (angular) ->
                                     self.removeClass "empty"
                             , 1
 
-                        window.$ document
+                        window.$ iElement
                             .on "focus", ".form-control-wrapper.fileinput", () ->
                                 window.$(this) .find "input" .addClass "focus"
                             .on "blur", ".form-control-wrapper.fileinput", () ->
