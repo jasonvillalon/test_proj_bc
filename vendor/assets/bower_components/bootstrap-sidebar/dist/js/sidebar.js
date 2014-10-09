@@ -5,7 +5,7 @@
  * Licensed under MIT
  * ======================================================================== */
 
-(function ($) {
++function ($) {
   'use strict';
 
   // SIDEBAR PUBLIC CLASS DEFINITION
@@ -95,10 +95,10 @@
 
   $.fn.sidebar.Constructor = Sidebar
 
-//  $.fn.collapse.noConflict = function () {
-//    $.fn.sidebar = old
-//    return this
-//  }
+  $.fn.collapse.noConflict = function () {
+    $.fn.sidebar = old
+    return this
+  }
 
   $(document).on('click.bs.sidebar.data-api', '[data-toggle="sidebar"]', function (e) {
     var $this = $(this), href
@@ -127,5 +127,5 @@
       })
     }
   });
-})(jQuery);
+}(jQuery);
 

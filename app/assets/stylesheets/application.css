@@ -15,6 +15,5 @@
  *= require animate-sass/_animate.scss
  *= require_tree .
  *= require bootstrap-material-design
- *= require bootstrap-sidebar
  *= require_self
  */
