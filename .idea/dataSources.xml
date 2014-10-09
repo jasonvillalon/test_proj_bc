@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Rails businesscard7: development" uuid="a23d1c0f-42bc-4e37-9555-f3fd593aee34">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:T:\html\businesscard7\db\development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:Y:\businesscard7\db\development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>
